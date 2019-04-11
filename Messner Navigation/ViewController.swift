@@ -19,7 +19,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     let kshuLatitude: CLLocationDegrees = 40.3114
     let kshuLongitude: CLLocationDegrees = -79.5567
-
+ 
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
         let newLocation: CLLocation=locations[0]
         NSLog("Something is happening")
